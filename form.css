@@ -1,0 +1,61 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/bb/79/5a/bb795ac13cecee4a37337abc4fadc4aa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div {
+    position: relative;
+    top: 150px;
+    left: 37%;
+    width: 250px;
+    height: 300px;
+    border: 0.5px solid white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -10px -10px 20px rgb(248, 95, 159), 10px 10px 20px rgb(95, 174, 248);
+}
+
+@media (max-width:100%) {}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    top: 50px;
+}
+
+input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 200px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -270px;
+    border-radius: 50%;
+}
