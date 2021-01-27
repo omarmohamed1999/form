@@ -1,13 +1,19 @@
-body {
+body,
+html {
     background-image: url(https://i.pinimg.com/originals/bb/79/5a/bb795ac13cecee4a37337abc4fadc4aa.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 div {
     position: relative;
     top: 150px;
-    left: 37%;
+    /*left: 37%;*/
+    margin: auto;
     width: 250px;
     height: 300px;
     border: 0.5px solid white;
